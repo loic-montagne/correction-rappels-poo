@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Rappels_POO.Exercice_2
 {
-    public class EluEscroc : Elu
+    public class EluEscroc : EluEconome
     {
         private decimal montantCompteBancaireSuisse;
 
@@ -34,15 +29,7 @@ namespace Rappels_POO.Exercice_2
 
         public override void VerserDotationBudgetaire()
         {
-            decimal montantEquitableSmic = MontantCompteBancaire / Assistants.Count;
-            if (montantEquitableSmic > 1480)
-                montantEquitableSmic = 1480;
-            foreach (Personne a in Assistants)
-            {
-                a.AjouterSous(montantEquitableSmic);
-                MontantCompteBancaire -= montantEquitableSmic;
-            }
-
+            base.VerserDotationBudgetaire();
             montantCompteBancaireSuisse = MontantCompteBancaire;
             MontantCompteBancaire = 0;
         }
