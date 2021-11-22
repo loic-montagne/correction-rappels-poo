@@ -4,4 +4,8 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Exercice 4\Vacataire.cs~RF8c24925.TMP" />
+  </ItemGroup>
+
 </Project>

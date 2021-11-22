@@ -34,6 +34,7 @@ namespace Rappels_POO.Exercice_3
                 if (a is Medicament)
                 {
                     nb += (a as Medicament).Frequence;
+                    //nb += ((Medicament)a).Frequence;
                 }
             }
             return nb;

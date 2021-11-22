@@ -2,7 +2,7 @@
 
 namespace Rappels_POO.Exercice_3
 {
-    public class Acte
+    public abstract class Acte
     {
         public string Soignant { get; set; }
         public DateTime Date { get; set; }
