@@ -1,6 +1,6 @@
 ﻿using Rappels_POO.Exercice_5.Personnages;
 
-namespace Rappels_POO.Exercice_5.Classes
+namespace Rappels_POO.Exercice_5.Competences
 {
     public interface IVoleur
     {

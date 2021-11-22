@@ -1,4 +1,4 @@
-﻿using Rappels_POO.Exercice_5.Classes;
+﻿using Rappels_POO.Exercice_5.Competences;
 
 namespace Rappels_POO.Exercice_5.Personnages
 {

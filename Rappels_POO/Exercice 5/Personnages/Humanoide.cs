@@ -1,9 +1,5 @@
 ﻿using Rappels_POO.Exercice_5.Objets;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Rappels_POO.Exercice_5.Personnages
 {
