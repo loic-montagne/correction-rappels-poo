@@ -25,6 +25,7 @@ namespace Rappels_POO.Exercice_2
 
         public EluEscroc(string nom, string prenom) : base(nom, prenom)
         {
+            montantCompteBancaireSuisse = 0;
         }
 
         public override void VerserDotationBudgetaire()
