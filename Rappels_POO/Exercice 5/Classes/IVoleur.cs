@@ -8,3 +8,4 @@ namespace Rappels_POO.Exercice_5.Classes
         void Voler(Personnage p);
     }
 }
+

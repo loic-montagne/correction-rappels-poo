@@ -1,7 +1,7 @@
 ﻿
 namespace Rappels_POO.Exercice_5.Personnages
 {
-    public class Elfe : Personnage
+    public class Elfe : Humanoide
     {
         public Elfe(string nom, int x, int y) : base(nom, x, y, 7)
         {
@@ -13,3 +13,4 @@ namespace Rappels_POO.Exercice_5.Personnages
         }
     }
 }
+
